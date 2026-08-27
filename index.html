@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Northline Haulage moves freight safely, reliably, and on time across the country." />
+  <title>Northline Haulage — Built to Deliver</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Northline home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
+      <span>NORTHLINE<small>HAULAGE</small></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#why-us">Why us</a><a href="#coverage">Coverage</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#quote">Get a quote <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow"><span></span> Freight, without the friction</p>
+        <h1>Built to move.<br><em>Driven to deliver.</em></h1>
+        <p class="hero-copy">Reliable freight solutions powered by experienced drivers, real-time visibility, and a fleet that never stops moving.</p>
+        <div class="hero-actions"><a class="button primary" href="#quote">Ship with us <span>→</span></a><a class="text-link" href="#services">Explore services <span>↓</span></a></div>
+      </div>
+      <div class="hero-stats"><div><strong>99.4%</strong><span>On-time delivery</span></div><div><strong>48</strong><span>States covered</span></div><div><strong>24/7</strong><span>Live support</span></div></div>
+      <div class="scroll-label">SCROLL TO EXPLORE <span></span></div>
+    </section>
+
+    <section class="intro" id="services">
+      <div><p class="section-label">01 — What we move</p><h2>Freight solutions<br>that go the distance.</h2></div>
+      <p>From a single pallet to a full truckload, we match every shipment with the right equipment, route, and team.</p>
+    </section>
+    <section class="services-grid">
+      <article class="service-card featured"><span class="service-number">01</span><div class="service-icon">↗</div><h3>Full truckload</h3><p>Dedicated capacity for high-volume freight, with direct routes and fewer handoffs.</p><a href="#quote" aria-label="Get a full truckload quote">Learn more <span>→</span></a></article>
+      <article class="service-card"><span class="service-number">02</span><div class="service-icon">▦</div><h3>Less-than-truckload</h3><p>Flexible, cost-effective shipping for freight that doesn’t need the whole trailer.</p><a href="#quote" aria-label="Get an LTL quote">Learn more <span>→</span></a></article>
+      <article class="service-card"><span class="service-number">03</span><div class="service-icon">❄</div><h3>Temperature controlled</h3><p>Cold-chain expertise and precise monitoring from pickup through delivery.</p><a href="#quote" aria-label="Get a refrigerated freight quote">Learn more <span>→</span></a></article>
+    </section>
+
+    <section class="proof" id="why-us">
+      <div class="proof-image"><span class="availability"><i></i> Capacity available now</span></div>
+      <div class="proof-content"><p class="section-label light">02 — Why Northline</p><h2>We keep promises,<br><em>not just schedules.</em></h2><p>Great logistics is invisible. It’s the confidence that your freight is handled, your customer is informed, and every mile is accounted for.</p>
+        <ul><li><span>01</span><div><strong>Real-time visibility</strong><small>Live tracking and proactive status updates.</small></div></li><li><span>02</span><div><strong>Vetted professionals</strong><small>Experienced drivers. Rigorous safety standards.</small></div></li><li><span>03</span><div><strong>A single point of contact</strong><small>One team accountable from quote to delivery.</small></div></li></ul>
+      </div>
+    </section>
+
+    <section class="coverage" id="coverage"><p class="section-label">03 — Our reach</p><h2>Coast to coast.<br><em>Corner to corner.</em></h2><div class="route-line" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><div class="city-list"><span>Seattle</span><span>Denver</span><span>Dallas</span><span>Chicago</span><span>New York</span></div></section>
+
+    <section class="quote" id="quote">
+      <div><p class="eyebrow"><span></span> Let’s get moving</p><h2>Your freight.<br>Our priority.</h2><p>Tell us what you’re shipping and we’ll get back to you with a clear, competitive quote.</p><div class="contact-row"><span>CALL US</span><a href="tel:+18005550148">+1 800 555 0148</a></div></div>
+      <form id="quote-form"><label>NAME<input name="name" autocomplete="name" placeholder="Your name" required></label><label>WORK EMAIL<input name="email" type="email" autocomplete="email" placeholder="you@company.com" required></label><div class="form-row"><label>PICKUP<input name="pickup" placeholder="City, State" required></label><label>DELIVERY<input name="delivery" placeholder="City, State" required></label></div><label>FREIGHT TYPE<select name="freight"><option>Full truckload</option><option>Less-than-truckload</option><option>Temperature controlled</option></select></label><button class="button primary" type="submit">Request a quote <span>→</span></button><p class="form-message" role="status" aria-live="polite"></p></form>
+    </section>
+  </main>
+
+  <footer id="contact"><a class="brand footer-brand" href="#top"><span class="brand-mark"><span></span><span></span></span><span>NORTHLINE<small>HAULAGE</small></span></a><p>Moving business forward,<br>one mile at a time.</p><div><span>© 2026 Northline Haulage</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
